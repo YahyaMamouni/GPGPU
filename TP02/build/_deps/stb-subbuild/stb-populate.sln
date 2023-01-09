@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{D47E476F-BB3C-3D27-86BA-00AAB6E3C6E6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0EAA49E4-1D36-3B6C-80BE-1C7194715338} = {0EAA49E4-1D36-3B6C-80BE-1C7194715338}
+		{B89B473D-6DC5-395A-9874-DC9F5AEF490B} = {B89B473D-6DC5-395A-9874-DC9F5AEF490B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{0EAA49E4-1D36-3B6C-80BE-1C7194715338}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stb-populate", "stb-populate.vcxproj", "{B89B473D-6DC5-395A-9874-DC9F5AEF490B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0EAA49E4-1D36-3B6C-80BE-1C7194715338} = {0EAA49E4-1D36-3B6C-80BE-1C7194715338}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D47E476F-BB3C-3D27-86BA-00AAB6E3C6E6}.Debug|x64.ActiveCfg = Debug|x64
+		{0EAA49E4-1D36-3B6C-80BE-1C7194715338}.Debug|x64.ActiveCfg = Debug|x64
+		{0EAA49E4-1D36-3B6C-80BE-1C7194715338}.Debug|x64.Build.0 = Debug|x64
+		{B89B473D-6DC5-395A-9874-DC9F5AEF490B}.Debug|x64.ActiveCfg = Debug|x64
+		{B89B473D-6DC5-395A-9874-DC9F5AEF490B}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A09398F-6952-36CD-827E-219A8CBE57D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

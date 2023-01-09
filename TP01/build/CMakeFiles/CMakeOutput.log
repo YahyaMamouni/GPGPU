@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 03/01/2023 08:33:04.
+La génération a démarré 09/01/2023 08:56:01.
 Projet "C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\3.16.3\CompilerIdC\CompilerIdC.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
   Création du répertoire "Debug\".
@@ -35,7 +35,7 @@ La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:01.02
+Temps écoulé 00:00:00.86
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 03/01/2023 08:33:06.
+La génération a démarré 09/01/2023 08:56:02.
 Projet "C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\3.16.3\CompilerIdCXX\CompilerIdCXX.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
   Création du répertoire "Debug\".
@@ -80,7 +80,7 @@ La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:00.78
+Temps écoulé 00:00:00.71
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,56 +92,56 @@ The CXX compiler identification is MSVC, found in "C:/Users/yamamouni/Desktop/GP
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/yamamouni/Desktop/GPGPU/TP01/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_31b00.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5831c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30145 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   testCCompiler.c
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31b00.dir\Debug\\" /Fd"cmTC_31b00.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\testCCompiler.c
-  cmTC_31b00.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\Debug\cmTC_31b00.exe
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5831c.dir\Debug\\" /Fd"cmTC_5831c.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cmTC_5831c.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\Debug\cmTC_5831c.exe
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/yamamouni/Desktop/GPGPU/TP01/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_57a10.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c7504.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30145 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   CMakeCCompilerABI.c
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57a10.dir\Debug\\" /Fd"cmTC_57a10.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c"
-  cmTC_57a10.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\Debug\cmTC_57a10.exe
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7504.dir\Debug\\" /Fd"cmTC_c7504.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c"
+  cmTC_c7504.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\Debug\cmTC_c7504.exe
 
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/yamamouni/Desktop/GPGPU/TP01/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_824f0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9dcd9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30145 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   testCXXCompiler.cxx
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_824f0.dir\Debug\\" /Fd"cmTC_824f0.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  cmTC_824f0.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\Debug\cmTC_824f0.exe
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9dcd9.dir\Debug\\" /Fd"cmTC_9dcd9.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cmTC_9dcd9.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\Debug\cmTC_9dcd9.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/yamamouni/Desktop/GPGPU/TP01/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d457b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c73e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30145 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d457b.dir\Debug\\" /Fd"cmTC_d457b.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_d457b.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\Debug\cmTC_d457b.exe
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c73e0.dir\Debug\\" /Fd"cmTC_c73e0.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_c73e0.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\TP01\build\CMakeFiles\CMakeTmp\Debug\cmTC_c73e0.exe
 
 
 

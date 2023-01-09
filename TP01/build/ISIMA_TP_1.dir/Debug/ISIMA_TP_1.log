@@ -1,2 +1,26 @@
 ﻿  main.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1534,98): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\thread(55): message : voir la référence à l'instanciation de la fonction modèle 'void std::invoke<void(__cdecl *)(int,int,int,int,int,int),int,int,int,int,float,float>(_Callable &&,_Ty1 &&,int &&,int &&,int &&,float &&,float &&) noexcept(false)' en cours de compilation
+          with
+          [
+              _Callable=void (__cdecl *)(int,int,int,int,int,int),
+              _Ty1=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\thread(62): message : voir la référence à l'instanciation de la fonction modèle 'unsigned int std::thread::_Invoke<_Tuple,0,1,2,3,4,5,6>(void *) noexcept' en cours de compilation
+          with
+          [
+              _Tuple=_Tuple
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\thread(69): message : voir la référence à l'instanciation de la fonction modèle 'unsigned int (__cdecl *std::thread::_Get_invoke<_Tuple,0,1,2,3,4,5,6>(std::integer_sequence<size_t,0,1,2,3,4,5,6>) noexcept)(void *)' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\thread(90): message : voir la référence à l'instanciation de la fonction modèle 'void std::thread::_Start<void(__cdecl &)(int,int,int,int,int,int),_Ty,_Ty,_Ty,_Ty,float&,float&>(_Fn,_Ty &&,_Ty &&,_Ty &&,_Ty &&,float &,float &)' en cours de compilation
+          with
+          [
+              _Ty=int,
+              _Fn=void (__cdecl &)(int,int,int,int,int,int)
+          ]
+C:\Users\yamamouni\Desktop\GPGPU\TP01\src\main.cpp(74): message : voir la référence à l'instanciation de la fonction modèle 'std::thread::thread<void(__cdecl &)(int,int,int,int,int,int),int,int,int,int,float&,float&,0>(_Fn,int &&,int &&,int &&,int &&,float &,float &)' en cours de compilation
+          with
+          [
+              _Fn=void (__cdecl &)(int,int,int,int,int,int)
+          ]
   ISIMA_TP_1.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\TP01\build\Debug\ISIMA_TP_1.exe
