@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/stb-populate"
+			"file" : "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/stb-populate"
 		},
 		{
-			"file" : "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/ec8260db54f62d5649605d085cbb0685/stb-populate.rule"
+			"file" : "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/90d878a99cea75fc1a67e5c20aecdfd3/stb-populate.rule"
 		},
 		{
-			"file" : "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/f96f35b077763fe31519ae676c0dff34/stb-populate-complete.rule"
+			"file" : "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/179c0795d07271d345dd3c0e0b7614d6/stb-populate-complete.rule"
 		},
 		{
-			"file" : "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/bc2d96753310e7b89bddfa1a66488b30/stb-populate-install.rule"
+			"file" : "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/379bbede2fea2909400e3c57870e3962/stb-populate-build.rule"
 		},
 		{
-			"file" : "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/bc2d96753310e7b89bddfa1a66488b30/stb-populate-mkdir.rule"
+			"file" : "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/379bbede2fea2909400e3c57870e3962/stb-populate-configure.rule"
 		},
 		{
-			"file" : "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/bc2d96753310e7b89bddfa1a66488b30/stb-populate-download.rule"
+			"file" : "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/379bbede2fea2909400e3c57870e3962/stb-populate-download.rule"
 		},
 		{
-			"file" : "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/bc2d96753310e7b89bddfa1a66488b30/stb-populate-update.rule"
+			"file" : "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/379bbede2fea2909400e3c57870e3962/stb-populate-install.rule"
 		},
 		{
-			"file" : "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/bc2d96753310e7b89bddfa1a66488b30/stb-populate-patch.rule"
+			"file" : "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/379bbede2fea2909400e3c57870e3962/stb-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/bc2d96753310e7b89bddfa1a66488b30/stb-populate-configure.rule"
+			"file" : "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/379bbede2fea2909400e3c57870e3962/stb-populate-patch.rule"
 		},
 		{
-			"file" : "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/bc2d96753310e7b89bddfa1a66488b30/stb-populate-build.rule"
+			"file" : "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/379bbede2fea2909400e3c57870e3962/stb-populate-test.rule"
 		},
 		{
-			"file" : "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/bc2d96753310e7b89bddfa1a66488b30/stb-populate-test.rule"
+			"file" : "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/CMakeFiles/379bbede2fea2909400e3c57870e3962/stb-populate-update.rule"
 		}
 	],
 	"target" : 

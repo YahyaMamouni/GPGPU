@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\TP02\build\CMakeFiles\37c7f76fce7c71c56fbeeb6f96dcf781\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU-master\GPGPU\TP02\build\CMakeFiles\dd3213e7b1e90c99579ea3980595c091\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{A18B17C9-412E-3472-838D-2BD64FD6FB0F}</UniqueIdentifier>
+      <UniqueIdentifier>{494ECB13-3E54-3F21-8389-00EA18D223E4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

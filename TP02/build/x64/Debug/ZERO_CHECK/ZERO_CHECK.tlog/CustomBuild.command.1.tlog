@@ -1,6 +1,6 @@
-^C:\USERS\YAMAMOUNI\DESKTOP\GPGPU\TP02\BUILD\CMAKEFILES\37C7F76FCE7C71C56FBEEB6F96DCF781\GENERATE.STAMP.RULE
+^C:\USERS\YAHYA\DESKTOP\GPGPU-MASTER\GPGPU\TP02\BUILD\CMAKEFILES\DD3213E7B1E90C99579EA3980595C091\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/TP02 -BC:/Users/yamamouni/Desktop/GPGPU/TP02/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/yamamouni/Desktop/GPGPU/TP02/build/ISIMA_TP_2.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02 -BC:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02/build/ISIMA_TP_2.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

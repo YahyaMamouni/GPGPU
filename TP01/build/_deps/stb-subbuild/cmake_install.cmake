@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild
+# Install script for directory: C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/stb-populate")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/stb-populate")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

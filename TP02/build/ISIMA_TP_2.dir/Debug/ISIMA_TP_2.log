@@ -1,4 +1,1 @@
-﻿  main.cpp
-     Création de la bibliothèque C:/Users/yamamouni/Desktop/GPGPU/TP02/build/Debug/ISIMA_TP_2.lib et de l'objet C:/Users/yamamouni/Desktop/GPGPU/TP02/build/Debug/ISIMA_TP_2.exp
-LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
-  ISIMA_TP_2.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\TP02\build\Debug\ISIMA_TP_2.exe
+﻿  ISIMA_TP_2.vcxproj -> C:\Users\Yahya\Desktop\GPGPU-master\GPGPU\TP02\build\Debug\ISIMA_TP_2.exe

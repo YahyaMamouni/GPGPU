@@ -1,4 +1,4 @@
-C:/Users/yamamouni/Desktop/GPGPU/TP02/build/CMakeFiles/ISIMA_TP_2.dir
-C:/Users/yamamouni/Desktop/GPGPU/TP02/build/CMakeFiles/gpgpu.dir
-C:/Users/yamamouni/Desktop/GPGPU/TP02/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/yamamouni/Desktop/GPGPU/TP02/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02/build/CMakeFiles/ISIMA_TP_2.dir
+C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02/build/CMakeFiles/gpgpu.dir
+C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,6 +1,6 @@
-^C:\USERS\YAMAMOUNI\DESKTOP\GPGPU\TP01\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\EC8260DB54F62D5649605D085CBB0685\GENERATE.STAMP.RULE
+^C:\USERS\YAHYA\DESKTOP\GPGPU-MASTER\GPGPU\TP01\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\90D878A99CEA75FC1A67E5C20AECDFD3\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild -BC:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/yamamouni/Desktop/GPGPU/TP01/build/_deps/stb-subbuild/stb-populate.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild -BC:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP01/build/_deps/stb-subbuild/stb-populate.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
