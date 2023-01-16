@@ -1,6 +1,6 @@
-^C:\USERS\YAHYA\DESKTOP\GPGPU-MASTER\GPGPU\TP02\CMAKELISTS.TXT
+^C:\USERS\YAMAMOUNI\DESKTOP\GPGPU\TP02\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02 -BC:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02/build --check-stamp-file C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/TP02 -BC:/Users/yamamouni/Desktop/GPGPU/TP02/build --check-stamp-file C:/Users/yamamouni/Desktop/GPGPU/TP02/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

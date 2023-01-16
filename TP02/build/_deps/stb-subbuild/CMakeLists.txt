@@ -13,17 +13,17 @@ project(stb-populate NONE)
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
 set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
-set(GIT_VERSION_STRING [==[2.39.0.windows.2]==])
+set(GIT_VERSION_STRING [==[2.12.0.windows.1]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[C:/Program Files/Git/cmd/git.exe;2.39.0.windows.2]==]
+  [==[C:/Program Files/Git/cmd/git.exe;2.12.0.windows.1]==]
 )
 
 
 include(ExternalProject)
 ExternalProject_Add(stb-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/nothings/stb.git"
-                    SOURCE_DIR          "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02/build/_deps/stb-src"
-                    BINARY_DIR          "C:/Users/Yahya/Desktop/GPGPU-master/GPGPU/TP02/build/_deps/stb-build"
+                    SOURCE_DIR          "C:/Users/yamamouni/Desktop/GPGPU/TP02/build/_deps/stb-src"
+                    BINARY_DIR          "C:/Users/yamamouni/Desktop/GPGPU/TP02/build/_deps/stb-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

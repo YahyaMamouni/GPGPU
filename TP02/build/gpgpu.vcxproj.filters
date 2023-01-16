@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="C:\Users\Yahya\Desktop\GPGPU-master\GPGPU\TP02\include\gpgpu.h">
+    <ClInclude Include="C:\Users\yamamouni\Desktop\GPGPU\TP02\include\gpgpu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -11,14 +11,14 @@
     </CudaCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU-master\GPGPU\TP02\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\TP02\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{F5475AF5-B2B6-3E3F-962A-A1C7E5E194DB}</UniqueIdentifier>
+      <UniqueIdentifier>{55C4AA8D-35EC-3BFC-87C5-27BB5D24CA07}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{7BBCAA0F-014E-3CD9-A2F2-D53FDF689E78}</UniqueIdentifier>
+      <UniqueIdentifier>{36D8788D-DDBC-3B47-8A89-9A3080233104}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
