@@ -10,7 +10,7 @@ __global__ void kernel_gray(float * device_image_float){
     int32_t index = blockIdx.x * blockDim.x + threadIdx.x;
     device_image_float[index] = device_image_float[index] + 0.5f;
 }
-
+/*
 // Kernel uv
 __global__ void kernel_uv(float * image, int32_t width, int32_t height){
     //int32_t x = blockIdx.x * blockDim.x + threadIdx.x;
@@ -31,6 +31,24 @@ __global__ void kernel_uv(float * image, int32_t width, int32_t height){
                 image[index++] = 0;
         }
     }
+
+}*/
+
+__global__ void kernel_uv(float * image, int32_t width, int32_t height){
+    int32_t x = blockIdx.x * blockDim.x + threadIdx.x;
+    int32_t y = blockIdx.y * blockDim.y + threadIdx.y;
+    int index;
+    index = 3 * (width * y + x);
+    float u = (float)x / (float)width;
+    float v = (float)y / (float)height;
+    int ir = int(255.0 * (1-u));
+    int ig = int(255.0 * (1-v));
+
+    image[index++] = ir;
+    image[index++] = ig;
+    image[index++] = 0;
+        
+    
 
 }
 
