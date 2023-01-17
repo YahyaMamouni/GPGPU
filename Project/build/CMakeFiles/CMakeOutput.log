@@ -1,0 +1,273 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+La génération a démarré 17/01/2023 08:53:04.
+Projet "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.vcxproj" sur le noud 1 (cibles par défaut).
+PrepareForBuild:
+  Création du répertoire "Debug\".
+  Création du répertoire "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Création de "Debug\CompilerIdCXX.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Suppression du fichier "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Génération du projet "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.vcxproj" terminée (cibles par défaut).
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:00.86
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/3.25.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+Compiler:  
+Build flags: 
+Id flags: --keep;--keep-dir;tmp -v
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+La génération a démarré 17/01/2023 08:53:05.
+Projet "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj" sur le noud 1 (cibles par défaut).
+PrepareForBuild:
+  Création du répertoire "Debug\".
+  Création du répertoire "Debug\CompilerIdCUDA.tlog\".
+InitializeBuildStatus:
+  Création de "Debug\CompilerIdCUDA.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+AddCudaCompileDeps:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=0 /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" /I. /FIcuda_runtime.h /c C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CMakeCUDACompilerId.cu 
+Le projet "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (1) génère "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (1:2) sur le noud 1 (CudaBuildCore cible(s)).
+CudaBuildCore:
+  Compiling CUDA source file CMakeCUDACompilerId.cu...
+  Création du répertoire "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\x64\Debug".
+  cmd.exe /C "C:\Users\yamamouni\AppData\Local\Temp\tmpedcdc3734f4d40c88694515347c612cf.cmd"
+  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\x64\Debug\CMakeCUDACompilerId.cu.obj "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CMakeCUDACompilerId.cu"
+  
+  C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\x64\Debug\CMakeCUDACompilerId.cu.obj "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CMakeCUDACompilerId.cu" 
+  #$ _NVVM_BRANCH_=nvvm
+  #$ _SPACE_= 
+  #$ _CUDART_=cudart
+  #$ _HERE_=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin
+  #$ _THERE_=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin
+  #$ _TARGET_SIZE_=
+  #$ _TARGET_DIR_=
+  #$ _TARGET_SIZE_=64
+  #$ _WIN_PLATFORM_=x64
+  #$ TOP=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin/..
+  #$ NVVMIR_LIBRARY_DIR=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin/../nvvm/libdevice
+  #$ PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin/../nvvm/bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin/../lib;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin;C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\libnvvp;c:\Program Files\AdoptOpenJDK\jre-8.0.252.09-hotspot\bin;c:\Program Files (x86)\AdoptOpenJDK\jre-8.0.252.09-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\VulkanSDK\1.1.130.0\Bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\wapt;C:\Program Files\Git\cmd;c:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Python27amd64;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Scripts;C:\Users\cri\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.4.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\CMake\bin;C:\Users\yamamouni\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\yamamouni\AppData\Local\Programs\Python\Python311\;C:\Users\yamamouni\AppData\Local\Microsoft\WindowsApps;;
+  #$ INCLUDES="-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin/../include"  
+  #$ LIBRARIES=  "/LIBPATH:C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin/../lib/x64"
+  #$ CUDAFE_FLAGS=--sdk_dir "C:\Program Files (x86)\Windows Kits\10"
+  #$ PTXAS_FLAGS=
+  CMakeCUDACompilerId.cu
+  #$ cl.exe @"C:\Users\YAMAMO~1\AppData\Local\Temp/tmpxft_000039bc_00000000-8.res" > "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+  CMakeCUDACompilerId.cu
+  #$ erase C:\Users\YAMAMO~1\AppData\Local\Temp/tmpxft_000039bc_00000000-8.res
+  #$ cudafe++ --microsoft_version=1929 --msvc_target_version=1929 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/3.25.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\Program Files (x86)\Windows Kits\10" --m64 --parse_templates --gen_c_file_name "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_000039bc_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+  #$ cl.exe @"C:\Users\YAMAMO~1\AppData\Local\Temp/tmpxft_000039bc_00000000-10.res" > "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-9_CMakeCUDACompilerId.cpp1.ii" 
+  CMakeCUDACompilerId.cu
+  #$ erase C:\Users\YAMAMO~1\AppData\Local\Temp/tmpxft_000039bc_00000000-10.res
+  #$ cicc --microsoft_version=1929 --msvc_target_version=1929 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/3.25.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\Program Files (x86)\Windows Kits\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_000039bc_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --module_id_file_name "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-9_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-7_CMakeCUDACompilerId.ptx"
+  #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-11_CMakeCUDACompilerId.sm_52.cubin" 
+  #$ fatbinary -64 --ident="C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/3.25.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-11_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+  #$ erase C:/Users/YAMAMO~1/AppData/Local/Temp/tmpxft_000039bc_00000000-4_CMakeCUDACompilerId.fatbin
+  #$ cl.exe @"C:\Users\YAMAMO~1\AppData\Local\Temp/tmpxft_000039bc_00000000-12.res" -Fo"C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/3.25.1/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" 
+  tmpxft_000039bc_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+  #$ erase C:\Users\YAMAMO~1\AppData\Local\Temp/tmpxft_000039bc_00000000-12.res
+Génération du projet "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj" terminée (CudaBuildCore cible(s)).
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCUDA.lib" /MACHINE:X64 C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\x64\Debug\CMakeCUDACompilerId.cu.obj
+     Création de la bibliothèque .\CompilerIdCUDA.lib et de l'objet .\CompilerIdCUDA.exp
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj]
+  CompilerIdCUDA.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CompilerIdCUDA.exe
+PostBuildEvent:
+  echo CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe
+  :VCEnd
+  CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe
+FinalizeBuildStatus:
+  Suppression du fichier "Debug\CompilerIdCUDA.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "Debug\CompilerIdCUDA.tlog\CompilerIdCUDA.lastbuildstate".
+Génération du projet "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj" terminée (cibles par défaut).
+
+La génération a réussi.
+
+"C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (cible par défaut) (1) ->
+(Link cible) -> 
+  LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj]
+
+    1 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:03.44
+
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+
+The CUDA compiler identification is NVIDIA, found in "C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/3.25.1/CompilerIdCUDA/CompilerIdCUDA.exe"
+
+Parsed CUDA nvcc include information from above output:
+  found 'INCLUDES=' string: ["-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin/../include"  ]
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-2x7b6t
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2bed4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30145 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2bed4.dir\Debug\\" /Fd"cmTC_2bed4.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_2bed4.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-2x7b6t\Debug\cmTC_2bed4.exe
+
+
+
+Detecting CUDA compiler ABI info compiled with the following output:
+Change Dir: C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-ht4m2f
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f3dd4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compiling CUDA source file ..\..\..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.25\Modules\CMakeCUDACompilerABI.cu...
+  
+  C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"     --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_f3dd4.dir\Debug\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_f3dd4.dir\Debug\CMakeCUDACompilerABI.obj "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCUDACompilerABI.cu" 
+cl : Ligne de commande warning D9002: option '-v' inconnue ignorée [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\cmTC_f3dd4.vcxproj]
+cl : Ligne de commande warning D9002: option '-v' inconnue ignorée [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\cmTC_f3dd4.vcxproj]
+  CMakeCUDACompilerABI.cu
+cl : Ligne de commande warning D9002: option '-v' inconnue ignorée [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\cmTC_f3dd4.vcxproj]
+  tmpxft_0000273c_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp
+LINK : warning LNK4044: option '/v' non reconnue ; ignorée [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\cmTC_f3dd4.vcxproj]
+     Création de la bibliothèque C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-ht4m2f/Debug/cmTC_f3dd4.lib et de l'objet C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-ht4m2f/Debug/cmTC_f3dd4.exp
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\cmTC_f3dd4.vcxproj]
+  cmTC_f3dd4.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\Debug\cmTC_f3dd4.exe
+
+
+
+Parsed CUDA implicit include dir info from above output: rv=start
+  warn: unable to parse implicit include dirs!
+
+
+Parsed CUDA implicit link information from above output:
+  link line regex: [^( *|.*[/\])(link\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-ht4m2f]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f3dd4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework]
+  ignore line: [Copyright (C) Microsoft Corporation. Tous droits réservés.]
+  ignore line: []
+  ignore line: [  Compiling CUDA source file ..\..\..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.25\Modules\CMakeCUDACompilerABI.cu...]
+  ignore line: [  ]
+  ignore line: [  C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"     --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_f3dd4.dir\Debug\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_f3dd4.dir\Debug\CMakeCUDACompilerABI.obj "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCUDACompilerABI.cu" ]
+  ignore line: [cl : Ligne de commande warning D9002: option '-v' inconnue ignorée [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\cmTC_f3dd4.vcxproj]]
+  ignore line: [cl : Ligne de commande warning D9002: option '-v' inconnue ignorée [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\cmTC_f3dd4.vcxproj]]
+  ignore line: [  CMakeCUDACompilerABI.cu]
+  ignore line: [cl : Ligne de commande warning D9002: option '-v' inconnue ignorée [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\cmTC_f3dd4.vcxproj]]
+  ignore line: [  tmpxft_0000273c_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp]
+  ignore line: [LINK : warning LNK4044: option '/v' non reconnue ]
+  ignore line: [ ignorée [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\cmTC_f3dd4.vcxproj]]
+  ignore line: [     Création de la bibliothèque C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-ht4m2f/Debug/cmTC_f3dd4.lib et de l'objet C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-ht4m2f/Debug/cmTC_f3dd4.exp]
+  ignore line: [LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ]
+  ignore line: [ utilisez /NODEFAULTLIB:library [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\cmTC_f3dd4.vcxproj]]
+  ignore line: [  cmTC_f3dd4.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ht4m2f\Debug\cmTC_f3dd4.exe]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+La génération a démarré 17/01/2023 08:53:28.
+Projet "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.vcxproj" sur le noud 1 (cibles par défaut).
+PrepareForBuild:
+  Création du répertoire "Debug\".
+  Création du répertoire "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Création de "Debug\CompilerIdC.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Suppression du fichier "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Génération du projet "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.vcxproj" terminée (cibles par défaut).
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:00.90
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/3.25.1/CompilerIdC/CompilerIdC.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-h090gz
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_81724.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30145 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81724.dir\Debug\\" /Fd"cmTC_81724.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+  cmTC_81724.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-h090gz\Debug\cmTC_81724.exe
+
+
+

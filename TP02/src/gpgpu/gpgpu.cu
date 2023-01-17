@@ -68,6 +68,36 @@ __global__ void kernel_mandelbrot(float* image) {
 
 }
 
+//kernel_julia
+__global__ void kernel_julia(float* image) {
+    // we need this for the index
+    int32_t x = blockIdx.x * blockDim.x + threadIdx.x;
+    int32_t y = blockIdx.y * blockDim.y + threadIdx.y;
+    int index;
+    index = 3 * (1024 * y + x);
+    // this is the counter that we use in while
+    unsigned int cmp = 0u;
+    // We limit our x & y to a number between 0 and 1 and we give it to u and v
+    // Because the mandelbrot accept values between -2 and 2
+    float u = float(x) / 1024;
+    float v = float(y) / 1024;
+    // c is the complex related to u,v
+    // z is an init value of (0.f, 0.f) in the complex
+    cuFloatComplex z = make_cuFloatComplex(u, v);
+    cuFloatComplex c = make_cuFloatComplex(0.292f, 0.015f);
+    // Then we loop 
+    while (cuCabsf(z) < 1.f && cmp <= 400) {
+        z = cuCaddf(cuCmulf(z, z), c);
+        cmp++;
+    }
+
+    image[index++] = cuCabsf(z);
+    image[index++] = 0;
+    image[index++] = 0;
+
+
+}
+
 
 void GetGPGPUInfo(){
     cudaDeviceProp cuda_properties;
@@ -110,7 +140,8 @@ void GenerateGrayscaleImage(std::vector<uint8_t>& host_image_uint8, int32_t widt
     //kernel_uv <<<blocks, threads>>>(device_image_float, width, height);
 
     // Mandelbrot
-    kernel_mandelbrot <<<blocks, threads>>> (device_image_float);
+    //kernel_mandelbrot <<<blocks, threads>>> (device_image_float);
+    kernel_julia << <blocks, threads >> > (device_image_float);
 
     cudaMemcpy(
         host_image_float.data(),

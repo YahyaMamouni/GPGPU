@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeFiles\e82f131d55a49d7f67ec043318769796\glfw-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeFiles\e82f131d55a49d7f67ec043318769796\glfw-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeFiles\e82f131d55a49d7f67ec043318769796\glfw-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeFiles\e82f131d55a49d7f67ec043318769796\glfw-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeFiles\e82f131d55a49d7f67ec043318769796\glfw-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeFiles\e82f131d55a49d7f67ec043318769796\glfw-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeFiles\e82f131d55a49d7f67ec043318769796\glfw-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeFiles\e82f131d55a49d7f67ec043318769796\glfw-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeFiles\8c84d6c8971dabd3e66885e62c0cb023\glfw-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeFiles\7c1b53fa9aca6b842e801748516547a7\glfw-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C4632ACB-C9C7-308A-A53F-769113DD4C77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

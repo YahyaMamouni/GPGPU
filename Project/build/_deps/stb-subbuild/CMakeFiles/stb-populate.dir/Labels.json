@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/stb-subbuild/CMakeFiles/stb-populate"
+		},
+		{
+			"file" : "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/stb-subbuild/CMakeFiles/84c052f871098d4e36d17df0383501f6/stb-populate.rule"
+		},
+		{
+			"file" : "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/stb-subbuild/CMakeFiles/feb058b2b0d5e91fd670b8a7ec8671f6/stb-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/stb-subbuild/CMakeFiles/c6786779878725dfd29c0f1af4b7c94a/stb-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/stb-subbuild/CMakeFiles/c6786779878725dfd29c0f1af4b7c94a/stb-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/stb-subbuild/CMakeFiles/c6786779878725dfd29c0f1af4b7c94a/stb-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/stb-subbuild/CMakeFiles/c6786779878725dfd29c0f1af4b7c94a/stb-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/stb-subbuild/CMakeFiles/c6786779878725dfd29c0f1af4b7c94a/stb-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/stb-subbuild/CMakeFiles/c6786779878725dfd29c0f1af4b7c94a/stb-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/stb-subbuild/CMakeFiles/c6786779878725dfd29c0f1af4b7c94a/stb-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/stb-subbuild/CMakeFiles/c6786779878725dfd29c0f1af4b7c94a/stb-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"stb-populate"
+		],
+		"name" : "stb-populate"
+	}
+}
