@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-build/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-build/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-build/install_manifest.txt" files)
+file(READ "C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

@@ -1,14 +1,12 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-isa61x
+Change Dir: C:/Users/Yahya/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-m5dnzk
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2404b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
-Copyright (C) Microsoft Corporation. Tous droits réservés.
-
-  Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30145 pour x64
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_025d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.34.31937 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   src.c
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2404b.dir\Debug\\" /Fd"cmTC_2404b.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-isa61x\src.c"
-C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-isa61x\src.c(1,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'pthread.h' : No such file or directory [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-isa61x\cmTC_2404b.vcxproj]
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_025d0.dir\Debug\\" /Fd"cmTC_025d0.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Yahya\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-m5dnzk\src.c"
+C:\Users\Yahya\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-m5dnzk\src.c(1,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'pthread.h' : No such file or directory [C:\Users\Yahya\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-m5dnzk\cmTC_025d0.vcxproj]
 
 
 Source file was:
@@ -34,30 +32,26 @@ int main(void)
 
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-hq6os7
+Change Dir: C:/Users/Yahya/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-93nluq
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6657a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
-Copyright (C) Microsoft Corporation. Tous droits réservés.
-
-  Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30145 pour x64
-  Copyright (C) Microsoft Corporation. Tous droits réservés.
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_93a50.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.34.31937 pour x64
   CheckFunctionExists.c
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6657a.dir\Debug\\" /Fd"cmTC_6657a.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-hq6os7\CheckFunctionExists.c"
-LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-hq6os7\cmTC_6657a.vcxproj]
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93a50.dir\Debug\\" /Fd"cmTC_93a50.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Yahya\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-93nluq\CheckFunctionExists.c"
+LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [C:\Users\Yahya\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-93nluq\cmTC_93a50.vcxproj]
 
 
 
 Determining if the function pthread_create exists in the pthread failed with the following output:
-Change Dir: C:/Users/yamamouni/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-i7253s
+Change Dir: C:/Users/Yahya/Desktop/GPGPU/Project/build/CMakeFiles/CMakeScratch/TryCompile-ps6zu2
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8f268.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
-Copyright (C) Microsoft Corporation. Tous droits réservés.
-
-  Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30145 pour x64
-  Copyright (C) Microsoft Corporation. Tous droits réservés.
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_63838.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.34.31937 pour x64
   CheckFunctionExists.c
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f268.dir\Debug\\" /Fd"cmTC_8f268.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-i7253s\CheckFunctionExists.c"
-LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [C:\Users\yamamouni\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-i7253s\cmTC_8f268.vcxproj]
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63838.dir\Debug\\" /Fd"cmTC_63838.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Yahya\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ps6zu2\CheckFunctionExists.c"
+LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [C:\Users\Yahya\Desktop\GPGPU\Project\build\CMakeFiles\CMakeScratch\TryCompile-ps6zu2\cmTC_63838.vcxproj]
 
 
 

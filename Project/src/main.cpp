@@ -31,7 +31,9 @@ void main() {
 	}
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
+	// Window created with a width of 1024
 	GLFWwindow* window = glfwCreateWindow(1024, 1024, "ISIMA_PROJECT", nullptr, nullptr);
+	// If the window is successfully created, it is made current and the GLAD library is loaded to get the appropriate OpenGl function pointers
 	if (window) {
 		glfwMakeContextCurrent(window);
 		gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);

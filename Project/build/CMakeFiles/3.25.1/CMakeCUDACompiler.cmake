@@ -1,6 +1,6 @@
 set(CMAKE_CUDA_COMPILER "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin/nvcc.exe")
 set(CMAKE_CUDA_HOST_COMPILER "")
-set(CMAKE_CUDA_HOST_LINK_LAUNCHER "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe")
+set(CMAKE_CUDA_HOST_LINK_LAUNCHER "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/link.exe")
 set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
 set(CMAKE_CUDA_COMPILER_VERSION "12.0.76")
 set(CMAKE_CUDA_DEVICE_LINKER "")
@@ -18,7 +18,7 @@ set(CMAKE_CUDA23_COMPILE_FEATURES "")
 set(CMAKE_CUDA_PLATFORM_ID "Windows")
 set(CMAKE_CUDA_SIMULATE_ID "MSVC")
 set(CMAKE_CUDA_COMPILER_FRONTEND_VARIANT "")
-set(CMAKE_CUDA_SIMULATE_VERSION "19.29")
+set(CMAKE_CUDA_SIMULATE_VERSION "19.34")
 set(MSVC_CUDA_ARCHITECTURE_ID x64)
 
 
@@ -55,7 +55,7 @@ set(CMAKE_CUDA_COMPILER_LIBRARY_ROOT "C:/Program Files/NVIDIA GPU Computing Tool
 
 set(CMAKE_CUDA_ARCHITECTURES_ALL "35-real;37-real;50-real;52-real;53-real;60-real;61-real;62-real;70-real;72-real;75-real;80-real;86-real;87-real;89-real;90")
 set(CMAKE_CUDA_ARCHITECTURES_ALL_MAJOR "35-real;50-real;60-real;70-real;80-real;90")
-set(CMAKE_CUDA_ARCHITECTURES_NATIVE "61-real")
+set(CMAKE_CUDA_ARCHITECTURES_NATIVE "86-real")
 
 set(CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/include")
 
@@ -70,6 +70,6 @@ set(CMAKE_CUDA_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 
 set(CMAKE_CUDA_RUNTIME_LIBRARY_DEFAULT "STATIC")
 
-set(CMAKE_LINKER "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe")
-set(CMAKE_AR "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.exe")
+set(CMAKE_LINKER "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/link.exe")
+set(CMAKE_AR "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/lib.exe")
 set(CMAKE_MT "CMAKE_MT-NOTFOUND")

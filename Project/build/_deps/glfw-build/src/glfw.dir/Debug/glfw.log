@@ -1,4 +1,4 @@
-﻿  Building Custom Rule C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-src/src/CMakeLists.txt
+﻿  Building Custom Rule C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-src/src/CMakeLists.txt
   context.c
   init.c
   input.c
@@ -15,4 +15,4 @@
   egl_context.c
   osmesa_context.c
   Génération de code en cours...
-  glfw.vcxproj -> C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src\Debug\glfw3.lib
+  glfw.vcxproj -> C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src\Debug\glfw3.lib

@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-src"
-  "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-build"
-  "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix"
-  "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp"
-  "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp"
-  "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/src"
-  "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp"
+  "C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-src"
+  "C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-build"
+  "C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix"
+  "C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp"
+  "C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp"
+  "C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/src"
+  "C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp"
 )
 
 set(configSubDirs Debug)
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

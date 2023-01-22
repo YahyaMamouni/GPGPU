@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{66CE1FCA-09CC-37D3-8F3F-752426B4F9BD}</ProjectGuid>
+    <ProjectGuid>{18697993-CD9F-382C-B3A3-FD24877FC14B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>glfw</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -33,22 +33,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -60,26 +60,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -96,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GLFW_USE_CONFIG_H;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,7 +116,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -133,10 +133,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -153,7 +153,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -170,10 +170,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -190,7 +190,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -206,10 +206,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src;C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -225,11 +225,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/Project -BC:/Users/yamamouni/Desktop/GPGPU/Project/build --check-stamp-file C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Project -BC:/Users/Yahya/Desktop/GPGPU/Project/build --check-stamp-file C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -238,11 +238,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/Project -BC:/Users/yamamouni/Desktop/GPGPU/Project/build --check-stamp-file C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Project -BC:/Users/Yahya/Desktop/GPGPU/Project/build --check-stamp-file C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -251,11 +251,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/Project -BC:/Users/yamamouni/Desktop/GPGPU/Project/build --check-stamp-file C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Project -BC:/Users/Yahya/Desktop/GPGPU/Project/build --check-stamp-file C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -264,11 +264,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/Project -BC:/Users/yamamouni/Desktop/GPGPU/Project/build --check-stamp-file C:/Users/yamamouni/Desktop/GPGPU/Project/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Project -BC:/Users/Yahya/Desktop/GPGPU/Project/build --check-stamp-file C:/Users/Yahya/Desktop/GPGPU/Project/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -277,40 +277,40 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\context.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\init.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\input.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\monitor.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\vulkan.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\window.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_init.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_joystick.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_monitor.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_time.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_thread.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_window.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\wgl_context.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\egl_context.c" />
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\osmesa_context.c" />
-    <ClInclude Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\internal.h" />
-    <ClInclude Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\mappings.h" />
-    <ClInclude Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-build\src\glfw_config.h" />
-    <ClInclude Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include\GLFW\glfw3.h" />
-    <ClInclude Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\include\GLFW\glfw3native.h" />
-    <ClInclude Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_platform.h" />
-    <ClInclude Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_joystick.h" />
-    <ClInclude Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\wgl_context.h" />
-    <ClInclude Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\egl_context.h" />
-    <ClInclude Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\_deps\glfw-src\src\osmesa_context.h" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\context.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\init.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\input.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\monitor.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\vulkan.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\window.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_init.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_joystick.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_monitor.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_time.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_thread.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_window.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\wgl_context.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\egl_context.c" />
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\osmesa_context.c" />
+    <ClInclude Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\internal.h" />
+    <ClInclude Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\mappings.h" />
+    <ClInclude Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-build\src\glfw_config.h" />
+    <ClInclude Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include\GLFW\glfw3.h" />
+    <ClInclude Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\include\GLFW\glfw3native.h" />
+    <ClInclude Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_platform.h" />
+    <ClInclude Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\win32_joystick.h" />
+    <ClInclude Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\wgl_context.h" />
+    <ClInclude Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\egl_context.h" />
+    <ClInclude Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\_deps\glfw-src\src\osmesa_context.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\yamamouni\Desktop\GPGPU\Project\build\ZERO_CHECK.vcxproj">
-      <Project>{E3BE1D9A-0FA8-3113-A845-E59C331EFE47}</Project>
+    <ProjectReference Include="C:\Users\Yahya\Desktop\GPGPU\Project\build\ZERO_CHECK.vcxproj">
+      <Project>{E0384605-B8FE-317A-ABFE-A2BEB9C89E47}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

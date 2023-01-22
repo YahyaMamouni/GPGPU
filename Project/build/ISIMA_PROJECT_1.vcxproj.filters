@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\yamamouni\Desktop\GPGPU\Project\src\main.cpp">
+    <ClCompile Include="C:\Users\Yahya\Desktop\GPGPU\Project\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Project\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Project\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{56D625F1-2FE4-315E-9AAF-4DF49B7754DB}</UniqueIdentifier>
+      <UniqueIdentifier>{CAF9FDD6-F5EA-3389-AC89-0F1D59B278F4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
