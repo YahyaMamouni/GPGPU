@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/glfw-subbuild/CMakeFiles/bf27360102cc041bfe92089aeedd6628/glfw-populate.rule
+C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/glfw-subbuild/CMakeFiles/c031ad5709f8fde25d0de59e72acbbd6/glfw-populate-complete.rule
+C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/glfw-subbuild/CMakeFiles/a0bf413fad874acdf61d52467a0c1f61/glfw-populate-build.rule
+C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/glfw-subbuild/CMakeFiles/a0bf413fad874acdf61d52467a0c1f61/glfw-populate-configure.rule
+C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/glfw-subbuild/CMakeFiles/a0bf413fad874acdf61d52467a0c1f61/glfw-populate-download.rule
+C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/glfw-subbuild/CMakeFiles/a0bf413fad874acdf61d52467a0c1f61/glfw-populate-install.rule
+C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/glfw-subbuild/CMakeFiles/a0bf413fad874acdf61d52467a0c1f61/glfw-populate-mkdir.rule
+C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/glfw-subbuild/CMakeFiles/a0bf413fad874acdf61d52467a0c1f61/glfw-populate-patch.rule
+C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/glfw-subbuild/CMakeFiles/a0bf413fad874acdf61d52467a0c1f61/glfw-populate-test.rule
+C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/glfw-subbuild/CMakeFiles/a0bf413fad874acdf61d52467a0c1f61/glfw-populate-update.rule

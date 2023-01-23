@@ -1,0 +1,10 @@
+^C:\USERS\YAHYA\DESKTOP\GPGPU\PROJECT_NEW\PROJECT\BUILD\_DEPS\STB-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild -BC:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild --check-stamp-file C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

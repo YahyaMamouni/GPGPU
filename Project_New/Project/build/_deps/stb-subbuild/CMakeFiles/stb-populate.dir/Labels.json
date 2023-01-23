@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/stb-populate"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/6c559095b3f750b0cff7b5cfdda8b024/stb-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/6d11ae53e19518faf431b36bf3c92008/stb-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/896bac4a80755ae51eb8d112ab2a334a/stb-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/896bac4a80755ae51eb8d112ab2a334a/stb-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/896bac4a80755ae51eb8d112ab2a334a/stb-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/896bac4a80755ae51eb8d112ab2a334a/stb-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/896bac4a80755ae51eb8d112ab2a334a/stb-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/896bac4a80755ae51eb8d112ab2a334a/stb-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/896bac4a80755ae51eb8d112ab2a334a/stb-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Project_New/Project/build/_deps/stb-subbuild/CMakeFiles/896bac4a80755ae51eb8d112ab2a334a/stb-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"stb-populate"
+		],
+		"name" : "stb-populate"
+	}
+}
