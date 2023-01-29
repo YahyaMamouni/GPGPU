@@ -49,7 +49,7 @@ __global__ void kernel_draw_map(cudaSurfaceObject_t surface) {
 
 
 // define the kernel
-__global__ void drawCircleKernel(cudaSurfaceObject_t surface, Fox* fox_buffer, Rabbit* rabbit_buffer, float4 fox_color, float4 rabbit_color, int number_foxes, int number_rabbits) {
+__global__ void DrawFoxes(cudaSurfaceObject_t surface, Fox* fox_buffer, float4 fox_color) {
 	// calculate the x and y coordinates for the current thread
 	int x = threadIdx.x + blockIdx.x * blockDim.x;
 	int y = threadIdx.y + blockIdx.y * blockDim.y;
@@ -74,6 +74,13 @@ __global__ void drawCircleKernel(cudaSurfaceObject_t surface, Fox* fox_buffer, R
 		}
 
 	}
+}
+
+__global__ void DrawRabbits(cudaSurfaceObject_t surface, Rabbit* rabbit_buffer, float4 rabbit_color) {
+
+	// calculate the x and y coordinates for the current thread
+	int x = threadIdx.x + blockIdx.x * blockDim.x;
+	int y = threadIdx.y + blockIdx.y * blockDim.y;
 
 	for (int i = 0; i < MAX_RABBIT; i++) {
 		if (rabbit_buffer[i].is_alive == true){
@@ -100,18 +107,17 @@ __global__ void drawCircleKernel(cudaSurfaceObject_t surface, Fox* fox_buffer, R
 }
 
 
-__global__ void SpawnRabbits(cudaSurfaceObject_t surface, Rabbit* rabbit_buffer, int number_rabbits, int random_age, Fox* fox_buffer) {
+
+
+__global__ void SpawnRabbits(Rabbit* rabbit_buffer, int random_age, int number_rabbits) {
 	int32_t index = threadIdx.x;
-
-
-
 	if (rabbit_buffer[index].is_alive) {
 		rabbit_buffer[index].age = rabbit_buffer[index].age + random_age;
 	}
 	// Add a random offset to the age threshold
-	int age_threshold = 5000 + random_age * 1000;
+	int age_threshold = random_age * 1000;
 	if (rabbit_buffer[index].age >= age_threshold) {
-		for (int i = 0; i < MAX_RABBIT; i++) {
+		for (int i = number_rabbits ; i < MAX_RABBIT; i++) {
 			if (rabbit_buffer[i].is_alive != true) {
 				rabbit_buffer[i].is_alive = true;
 				rabbit_buffer[i].age = 0;
@@ -122,6 +128,27 @@ __global__ void SpawnRabbits(cudaSurfaceObject_t surface, Rabbit* rabbit_buffer,
 
 }
 
+// Spawn foxes
+__global__ void SpawnFoxes(Fox* fox_buffer, int random_age, int number_foxes) {
+	int32_t index = threadIdx.x;
+	if (fox_buffer[index].is_alive) {
+		fox_buffer[index].age = fox_buffer[index].age + random_age;
+	}
+	// Add a random offset to the age threshold
+	int age_threshold = 5000 + random_age * 1000;
+	if (fox_buffer[index].age >= age_threshold) {
+		for (int i = number_foxes ; i < MAX_FOX; i++) {
+			if (fox_buffer[i].is_alive != true) {
+				fox_buffer[i].is_alive = true;
+				fox_buffer[i].age = 0;
+				break;
+			}
+		}
+	}
+
+}
+
+
 // Kill rabbits
 
 __global__ void KillRabbits(cudaSurfaceObject_t surface, Rabbit* rabbit_buffer, Fox* fox_buffer) {
@@ -130,12 +157,24 @@ __global__ void KillRabbits(cudaSurfaceObject_t surface, Rabbit* rabbit_buffer, 
 	for (int i = 0; i < MAX_FOX; i++) {
 
 		if (fox_buffer[i].is_alive == true && rabbit_buffer[i].is_alive == true){
-			if (hypotf(fox_buffer[i].u - rabbit_buffer[index].u, fox_buffer[i].v - rabbit_buffer[index].v) < fox_buffer[i].radius + 150) {
+			if (hypotf(fox_buffer[i].u - rabbit_buffer[index].u, fox_buffer[i].v - rabbit_buffer[index].v) < fox_buffer[i].radius + 20) {
 				rabbit_buffer[index].is_alive = false;
+			}
+			else{
+				fox_buffer[i].death--;
 			}
 		}
 	}
 
+}
+
+
+__global__ void KillFoxes(cudaSurfaceObject_t surface, Fox* fox_buffer) {
+	int32_t index = threadIdx.x;
+
+		if (fox_buffer[index].is_alive == true && fox_buffer[index].death == 0){
+			fox_buffer[index].is_alive = false;
+		}
 }
 
 /*
@@ -175,7 +214,7 @@ void destroy(Fox* device_foxes, Rabbit* device_rabbits) {
 
 
 //Trying to make the buffer work
-void DrawMap(cudaSurfaceObject_t surface, int32_t width, int32_t height, float time, int number_foxes, int number_rabbits) {
+void DrawMap(cudaSurfaceObject_t surface, int32_t width, int32_t height, float time, int number_foxes, int * number_rabbits) {
 	dim3 threads(32, 32);
 	dim3 blocks(32, 32);
 
@@ -223,7 +262,7 @@ void DrawMap(cudaSurfaceObject_t surface, int32_t width, int32_t height, float t
 			rabbit_buffer[i].direction_u = direction_x(gen);
 			rabbit_buffer[i].direction_v = direction_y(gen);
 			rabbit_buffer[i].radius = 15;
-			if (i < number_rabbits){
+			if (i < *number_rabbits){
 				rabbit_buffer[i].is_alive = true;
 			}
 		}
@@ -240,14 +279,16 @@ void DrawMap(cudaSurfaceObject_t surface, int32_t width, int32_t height, float t
 	}
 
 
-	drawCircleKernel << <blocks, threads >> > (surface, device_foxes, device_rabbits, fox_color, rabbit_color, number_foxes, number_rabbits);
-	KillRabbits <<<1, number_rabbits >>> (surface, device_rabbits,  device_foxes);
-	assert(number_rabbits <= 500);
+	DrawFoxes << <blocks, threads >> > (surface, device_foxes, fox_color);
+	DrawRabbits << <blocks, threads >> > (surface, device_rabbits, rabbit_color);
+	assert(*number_rabbits <= 500);
 	std::uniform_real_distribution<> x(0, 100);
 	std::random_device rd;
 	std::mt19937 gen(rd());
-	SpawnRabbits <<<1, number_rabbits >>> (surface, device_rabbits, number_rabbits, x(gen), device_foxes);
-	
+	SpawnRabbits <<<1, MAX_RABBIT >>> (device_rabbits, x(gen), *number_rabbits);
+	SpawnFoxes <<<1, MAX_FOX >>> (device_foxes, x(gen), number_foxes);
+	KillRabbits <<<1, MAX_RABBIT >>> (surface, device_rabbits,  device_foxes);
+	KillFoxes <<<1, MAX_FOX >>> (surface, device_foxes);
 
 	// copy data back to host
 	//cudaMemcpy(fox_buffer, device_foxes, sizeof(Fox) * MAX_FOX, cudaMemcpyDeviceToHost);

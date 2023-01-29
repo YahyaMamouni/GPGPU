@@ -105,7 +105,7 @@ void main() {
 
 			// START MAIN LOOP
 			//DrawUVs(surface_map, kWidth, kHeight, static_cast<float>(current_frame)*0.01f);
-			DrawMap(surface_map, kWidth, kHeight, static_cast<float>(current_frame)*0.01f, number_foxes, number_rabbits);
+			DrawMap(surface_map, kWidth, kHeight, static_cast<float>(current_frame)*0.01f, number_foxes, &number_rabbits);
 			// END MAIN LOOP
 			
 			cudaGraphicsMapResources(1, &cuda_graphic_resource);
