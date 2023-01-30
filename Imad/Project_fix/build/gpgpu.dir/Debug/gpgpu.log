@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/CMakeLists.txt
+  Compiling CUDA source file ..\src\gpgpu\gpgpu.cu...
+  
+  C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64" -x cu   -IC:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\include -I"C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\_deps\glfw-src\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"     --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -std=c++14 -Xcompiler="/EHsc -Zi -Ob0" -g  -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -DWIN32 -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdC:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\Debug\gpgpu.pdb /FS /Zi /RTC1 /MDd /GR" -o gpgpu.dir\Debug\gpgpu.obj "C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\src\gpgpu\gpgpu.cu" 
+C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\src\gpgpu\gpgpu.cu(15): warning #20039-D: a __host__ function("fracf") redeclared with __device__, hence treated as a __host__ __device__ function
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  gpgpu.cu
+  tmpxft_00007658_00000000-7_gpgpu.cudafe1.cpp
+  glad.c
+  gpgpu.vcxproj -> C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\Debug\gpgpu.lib

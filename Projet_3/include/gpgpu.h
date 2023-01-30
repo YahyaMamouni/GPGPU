@@ -16,7 +16,8 @@ struct Rabbit {
 	float radius;
 	float direction_u;
 	float direction_v;
-	bool is_alive = false;
+	// using int because atomicExch isn't compatible with booleans
+	int is_alive = false;
 	int age = 0;
 	//...
 };

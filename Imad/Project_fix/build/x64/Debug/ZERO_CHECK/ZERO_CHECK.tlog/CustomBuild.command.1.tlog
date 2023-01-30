@@ -1,0 +1,10 @@
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\CMAKEFILES\FA0C0A8C3E2C16A02D6BED93D6EF853B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix -BC:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/ISIMA_PROJECT_1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

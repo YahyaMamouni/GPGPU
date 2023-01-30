@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\CMakeFiles\491ad578d903bcbfce43f17a6d6c3a25\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\_deps\glfw-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\_deps\glfw-build\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2BE91CEE-41C6-364E-BDF3-92534A1850D7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/glfw-subbuild/CMakeFiles/19a9e2babf88e0a8d9ebc193d40dd99c/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/glfw-subbuild/CMakeFiles/2387097b330d2759cc8e0bd56f63cfb4/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/glfw-subbuild/CMakeFiles/6fbe239dfac23fdfed40020e162e1515/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/glfw-subbuild/CMakeFiles/6fbe239dfac23fdfed40020e162e1515/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/glfw-subbuild/CMakeFiles/6fbe239dfac23fdfed40020e162e1515/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/glfw-subbuild/CMakeFiles/6fbe239dfac23fdfed40020e162e1515/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/glfw-subbuild/CMakeFiles/6fbe239dfac23fdfed40020e162e1515/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/glfw-subbuild/CMakeFiles/6fbe239dfac23fdfed40020e162e1515/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/glfw-subbuild/CMakeFiles/6fbe239dfac23fdfed40020e162e1515/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/glfw-subbuild/CMakeFiles/6fbe239dfac23fdfed40020e162e1515/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

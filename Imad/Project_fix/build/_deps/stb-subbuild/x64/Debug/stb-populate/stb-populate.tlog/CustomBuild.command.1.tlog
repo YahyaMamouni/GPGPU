@@ -1,0 +1,150 @@
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\D0F569D9C5ABF5D4E1A21CCCDA66C26D\STB-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate-prefix/tmp/stb-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\D0F569D9C5ABF5D4E1A21CCCDA66C26D\STB-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate-prefix/tmp/stb-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\D0F569D9C5ABF5D4E1A21CCCDA66C26D\STB-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\_deps\stb-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate-prefix/tmp/stb-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\D0F569D9C5ABF5D4E1A21CCCDA66C26D\STB-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\D0F569D9C5ABF5D4E1A21CCCDA66C26D\STB-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\D0F569D9C5ABF5D4E1A21CCCDA66C26D\STB-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\D0F569D9C5ABF5D4E1A21CCCDA66C26D\STB-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\D0F569D9C5ABF5D4E1A21CCCDA66C26D\STB-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\CFB2A57B849FF3AA4ADF977232A777C4\STB-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/Debug/stb-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\4354DA00B36429F38C4365306332C75B\STB-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild -BC:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild --check-stamp-file C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/CMakeLists.txt
+  main.cpp
+  Source.cpp
+  Génération de code en cours...
+     Création de la bibliothèque C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/Debug/ISIMA_PROJECT_1.lib et de l'objet C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/Debug/ISIMA_PROJECT_1.exp
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'MSVCRT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+  ISIMA_PROJECT_1.vcxproj -> C:\Users\Yahya\Desktop\GPGPU\Imad\Project_fix\build\Debug\ISIMA_PROJECT_1.exe

@@ -1,0 +1,3 @@
+C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/stb-populate.dir
+C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/stb-populate"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/4354da00b36429f38c4365306332c75b/stb-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/cfb2a57b849ff3aa4adf977232a777c4/stb-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/d0f569d9c5abf5d4e1a21cccda66c26d/stb-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/d0f569d9c5abf5d4e1a21cccda66c26d/stb-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/d0f569d9c5abf5d4e1a21cccda66c26d/stb-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/d0f569d9c5abf5d4e1a21cccda66c26d/stb-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/d0f569d9c5abf5d4e1a21cccda66c26d/stb-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/d0f569d9c5abf5d4e1a21cccda66c26d/stb-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/d0f569d9c5abf5d4e1a21cccda66c26d/stb-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/CMakeFiles/d0f569d9c5abf5d4e1a21cccda66c26d/stb-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"stb-populate"
+		],
+		"name" : "stb-populate"
+	}
+}

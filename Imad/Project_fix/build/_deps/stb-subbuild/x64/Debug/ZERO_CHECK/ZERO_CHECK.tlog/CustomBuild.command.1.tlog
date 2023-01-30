@@ -1,0 +1,10 @@
+^C:\USERS\YAHYA\DESKTOP\GPGPU\IMAD\PROJECT_FIX\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\4354DA00B36429F38C4365306332C75B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild -BC:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Yahya/Desktop/GPGPU/Imad/Project_fix/build/_deps/stb-subbuild/stb-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
