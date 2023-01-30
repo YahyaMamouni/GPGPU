@@ -1,0 +1,10 @@
+^C:\USERS\YAHYA\DESKTOP\GPGPU\PROJET_3\BUILD\CMAKEFILES\9E71E0323B0634DDA61B5E753C09C383\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Projet_3 -BC:/Users/Yahya/Desktop/GPGPU/Projet_3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/ISIMA_PROJECT_1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

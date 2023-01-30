@@ -1,0 +1,14 @@
+# Target labels
+ stb-populate
+# Source files and their labels
+C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/stb-subbuild/CMakeFiles/stb-populate
+C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/stb-subbuild/CMakeFiles/c621bbd3da028fc61c11b5279cd7c78b/stb-populate.rule
+C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/stb-subbuild/CMakeFiles/565cd337bcc3e75abaec93d4290a1b5f/stb-populate-complete.rule
+C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/stb-subbuild/CMakeFiles/e6fb28c71602a54d24bf99cfc63ea642/stb-populate-build.rule
+C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/stb-subbuild/CMakeFiles/e6fb28c71602a54d24bf99cfc63ea642/stb-populate-configure.rule
+C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/stb-subbuild/CMakeFiles/e6fb28c71602a54d24bf99cfc63ea642/stb-populate-download.rule
+C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/stb-subbuild/CMakeFiles/e6fb28c71602a54d24bf99cfc63ea642/stb-populate-install.rule
+C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/stb-subbuild/CMakeFiles/e6fb28c71602a54d24bf99cfc63ea642/stb-populate-mkdir.rule
+C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/stb-subbuild/CMakeFiles/e6fb28c71602a54d24bf99cfc63ea642/stb-populate-patch.rule
+C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/stb-subbuild/CMakeFiles/e6fb28c71602a54d24bf99cfc63ea642/stb-populate-test.rule
+C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/stb-subbuild/CMakeFiles/e6fb28c71602a54d24bf99cfc63ea642/stb-populate-update.rule

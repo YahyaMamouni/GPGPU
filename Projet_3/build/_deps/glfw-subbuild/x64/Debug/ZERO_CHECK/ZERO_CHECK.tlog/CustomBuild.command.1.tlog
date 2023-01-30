@@ -1,0 +1,10 @@
+^C:\USERS\YAHYA\DESKTOP\GPGPU\PROJET_3\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\280FC7FACAE228A852F1BFE55B9A67D2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild -BC:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/glfw-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

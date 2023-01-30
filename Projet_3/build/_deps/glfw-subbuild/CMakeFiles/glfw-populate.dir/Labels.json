@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/280fc7facae228a852f1bfe55b9a67d2/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/1a81eba6528cd9eac9a3cb023a68fd74/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/70041ac90aaf7dec7fa653d88f47f065/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/70041ac90aaf7dec7fa653d88f47f065/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/70041ac90aaf7dec7fa653d88f47f065/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/70041ac90aaf7dec7fa653d88f47f065/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/70041ac90aaf7dec7fa653d88f47f065/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/70041ac90aaf7dec7fa653d88f47f065/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/70041ac90aaf7dec7fa653d88f47f065/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/70041ac90aaf7dec7fa653d88f47f065/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

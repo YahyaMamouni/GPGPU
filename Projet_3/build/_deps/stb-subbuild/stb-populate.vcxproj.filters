@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeFiles\e6fb28c71602a54d24bf99cfc63ea642\stb-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeFiles\e6fb28c71602a54d24bf99cfc63ea642\stb-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeFiles\e6fb28c71602a54d24bf99cfc63ea642\stb-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeFiles\e6fb28c71602a54d24bf99cfc63ea642\stb-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeFiles\e6fb28c71602a54d24bf99cfc63ea642\stb-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeFiles\e6fb28c71602a54d24bf99cfc63ea642\stb-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeFiles\e6fb28c71602a54d24bf99cfc63ea642\stb-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeFiles\e6fb28c71602a54d24bf99cfc63ea642\stb-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeFiles\565cd337bcc3e75abaec93d4290a1b5f\stb-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeFiles\c621bbd3da028fc61c11b5279cd7c78b\stb-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\stb-subbuild\CMakeFiles\stb-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DCEED189-A4D1-3AD4-9938-9B46E84B37F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
