@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{58853791-21AD-3C8C-8E52-A46C83FE5A0A}</ProjectGuid>
+    <ProjectGuid>{424B7065-EA33-315A-A9CA-C140AC833469}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>update_mappings</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -33,22 +33,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -106,14 +106,14 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\CMakeFiles\cbc9313dd96b1b92d29c3345462c7f58\update_mappings.rule">
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\CMakeFiles\35d3466f4540ba53c290b9537dfd5094\update_mappings.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src
+cd C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -122,16 +122,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src
+cd C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -140,16 +140,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src
+cd C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -158,16 +158,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src
+cd C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -176,17 +176,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Projet_3 -BC:/Users/Yahya/Desktop/GPGPU/Projet_3/build --check-stamp-file C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/Projet_3 -BC:/Users/yamamouni/Desktop/GPGPU/Projet_3/build --check-stamp-file C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -195,11 +195,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Projet_3 -BC:/Users/Yahya/Desktop/GPGPU/Projet_3/build --check-stamp-file C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/Projet_3 -BC:/Users/yamamouni/Desktop/GPGPU/Projet_3/build --check-stamp-file C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -208,11 +208,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Projet_3 -BC:/Users/Yahya/Desktop/GPGPU/Projet_3/build --check-stamp-file C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/Projet_3 -BC:/Users/yamamouni/Desktop/GPGPU/Projet_3/build --check-stamp-file C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +221,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Projet_3 -BC:/Users/Yahya/Desktop/GPGPU/Projet_3/build --check-stamp-file C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/Projet_3 -BC:/Users/yamamouni/Desktop/GPGPU/Projet_3/build --check-stamp-file C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,21 +234,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src\mappings.h.in">
+    <None Include="C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\src\mappings.h.in">
     </None>
-    <None Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\CMake\GenerateMappings.cmake">
+    <None Include="C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-src\CMake\GenerateMappings.cmake">
     </None>
-    <None Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\update_mappings">
+    <None Include="C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-build\src\CMakeFiles\update_mappings">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\ZERO_CHECK.vcxproj">
-      <Project>{443025BA-7E8A-3BA5-8692-029C6013DCBF}</Project>
+    <ProjectReference Include="C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\ZERO_CHECK.vcxproj">
+      <Project>{EC9FA22C-3585-3D1B-AE44-33E79CAA8545}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

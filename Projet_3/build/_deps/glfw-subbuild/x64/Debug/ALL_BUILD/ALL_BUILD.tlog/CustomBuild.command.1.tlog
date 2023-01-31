@@ -1,6 +1,6 @@
-^C:\USERS\YAHYA\DESKTOP\GPGPU\PROJET_3\BUILD\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
+^C:\USERS\YAMAMOUNI\DESKTOP\GPGPU\PROJET_3\BUILD\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild -BC:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild --check-stamp-file C:/Users/Yahya/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild -BC:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild --check-stamp-file C:/Users/yamamouni/Desktop/GPGPU/Projet_3/build/_deps/glfw-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

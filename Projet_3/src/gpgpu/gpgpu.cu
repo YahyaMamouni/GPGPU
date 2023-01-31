@@ -159,6 +159,8 @@ __global__ void SpawnFoxes(Fox* fox_buffer, int random_age, float random_u, floa
 		float temp = fox_buffer[index].direction_u * cos(random_val) - fox_buffer[index].direction_v * sin(random_val);
 		fox_buffer[index].direction_v = fox_buffer[index].direction_u * sin(random_val) + fox_buffer[index].direction_v * cos(random_val);
 		fox_buffer[index].direction_u = temp;
+		
+
 		// Changing positions of fox
 		if (fox_buffer[index].u >= 1 || fox_buffer[index].u <= 0) {
 			fox_buffer[index].direction_u = 0.0f - fox_buffer[index].direction_u;
@@ -208,14 +210,38 @@ __global__ void KillRabbits(cudaSurfaceObject_t surface, Rabbit* rabbit_buffer, 
 
 }*/
 
-
+// Not atomic
+/*
 __global__ void KillFoxes(cudaSurfaceObject_t surface, Fox* fox_buffer) {
 	int32_t index = threadIdx.x;
 
 		if (fox_buffer[index].is_alive == true && fox_buffer[index].death == 0){
 			fox_buffer[index].is_alive = false;
 		}
+}*/
+
+
+__global__ void KillFoxes(cudaSurfaceObject_t surface, Fox* fox_buffer, Rabbit * rabbit_buffer) {
+	int32_t index = threadIdx.x;
+
+	// Chase
+	for (int i = 0; i < MAX_RABBIT; i++) {
+		
+		if (rabbit_buffer[i].is_alive == true && hypotf(fox_buffer[index].u - rabbit_buffer[i].u, fox_buffer[index].v - rabbit_buffer[i].v) < fox_buffer[index].radius + 0.03) {
+			fox_buffer[index].direction_u = rabbit_buffer[i].u - fox_buffer[index].u;
+			fox_buffer[index].direction_v = rabbit_buffer[i].v - fox_buffer[index].v;
+			float norm = sqrt((fox_buffer[index].direction_u * fox_buffer[index].direction_u) + (fox_buffer[index].direction_v * fox_buffer[index].direction_v));
+			fox_buffer[index].direction_u = fox_buffer[index].direction_u / norm;
+			fox_buffer[index].direction_v = fox_buffer[index].direction_v / norm;
+		}
+	}
+
+
+	if (fox_buffer[index].is_alive == true && fox_buffer[index].death == 0) {
+		atomicExch(&fox_buffer[index].is_alive, 0);
+	}
 }
+
 
 // Atomic
 __global__ void KillRabbits(cudaSurfaceObject_t surface, Rabbit* rabbit_buffer, Fox* fox_buffer) {
@@ -224,8 +250,7 @@ __global__ void KillRabbits(cudaSurfaceObject_t surface, Rabbit* rabbit_buffer, 
     for (int i = 0; i < MAX_FOX; i++) {
         if (fox_buffer[i].is_alive == true && rabbit_buffer[i].is_alive == true){
             if (hypotf(fox_buffer[i].u - rabbit_buffer[index].u, fox_buffer[i].v - rabbit_buffer[index].v) < fox_buffer[i].radius + 0.005) {
-				// Use atomicExch to safely update the is_alive flag
-                atomicExch(&rabbit_buffer[index].is_alive, 0);
+				atomicExch(&rabbit_buffer[index].is_alive, 0);      
             }
 			else {
 				fox_buffer[i].death--;
@@ -337,7 +362,7 @@ void DrawMap(cudaSurfaceObject_t surface, int32_t width, int32_t height, float t
 	SpawnRabbits <<<1, MAX_RABBIT >>> (device_rabbits, random_age(gen), x(gen), y(gen));
 	SpawnFoxes <<<1, MAX_FOX >>> (device_foxes, random_age(gen), x(gen), y(gen));
 	KillRabbits <<<1, MAX_RABBIT >>> (surface, device_rabbits,  device_foxes);
-	KillFoxes <<<1, MAX_FOX >>> (surface, device_foxes);
+	KillFoxes <<<1, MAX_FOX >>> (surface, device_foxes, device_rabbits);
 
 	// copy data back to host
 	//cudaMemcpy(fox_buffer, device_foxes, sizeof(Fox) * MAX_FOX, cudaMemcpyDeviceToHost);

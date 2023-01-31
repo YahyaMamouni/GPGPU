@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-subbuild\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-subbuild\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Yahya\Desktop\GPGPU\Projet_3\build\_deps\glfw-subbuild\x64\Debug\glfw-populate</FullPath>
+      <FullPath>C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\_deps\glfw-subbuild\x64\Debug\glfw-populate</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
