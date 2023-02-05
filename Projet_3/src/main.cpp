@@ -103,10 +103,7 @@ void main() {
 			int width, height;
 			glfwGetFramebufferSize(window, &width, &height);
 
-			// START MAIN LOOP
-			//DrawUVs(surface_map, kWidth, kHeight, static_cast<float>(current_frame)*0.01f);
 			DrawMap(surface_map, kWidth, kHeight, static_cast<float>(current_frame)*0.01f, number_foxes, &number_rabbits);
-			// END MAIN LOOP
 			
 			cudaGraphicsMapResources(1, &cuda_graphic_resource);
 			cudaArray_t array_OpenGL;
@@ -129,7 +126,6 @@ void main() {
 			glfwSwapBuffers(window);
 			++current_frame;
 		}
-		//destroy(device_foxes,device_rabbits);
 		glfwDestroyWindow(window);
 	}
 	glfwTerminate();
