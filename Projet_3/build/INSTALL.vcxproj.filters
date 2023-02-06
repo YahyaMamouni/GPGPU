@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yamamouni\Desktop\GPGPU\Projet_3\build\CMakeFiles\ba276e5aab99854a88991e0e6f47632b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{376D6530-0B19-3236-AB7C-FA2B152881C2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

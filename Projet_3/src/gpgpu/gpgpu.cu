@@ -98,8 +98,8 @@ __global__ void DrawRabbits(cudaSurfaceObject_t surface, Rabbit* rabbit_buffer, 
 	}
 }
 
-// Kernel to move rabbits and spawn new ones
-__global__ void MoveAndSpawnRabbits(Rabbit* rabbit_buffer, int random_age, float random_u, float random_v) {
+// Kernel to move rabbits
+__global__ void MoveRabbits(Rabbit* rabbit_buffer, int random_age, float random_u, float random_v) {
 	int32_t index = threadIdx.x;
 	if (rabbit_buffer[index].is_alive) {
 		rabbit_buffer[index].age = rabbit_buffer[index].age + random_age;
@@ -122,8 +122,13 @@ __global__ void MoveAndSpawnRabbits(Rabbit* rabbit_buffer, int random_age, float
 		rabbit_buffer[index].u = rabbit_buffer[index].u + (rabbit_buffer[index].direction_u / 1000);
 		rabbit_buffer[index].v = rabbit_buffer[index].v + (rabbit_buffer[index].direction_v / 1000);
 	}
+}
+
+// Kernel to move rabbits and spawn new ones
+__global__ void SpawnRabbits(Rabbit* rabbit_buffer, int random_age, float random_u, float random_v) {
+	int32_t index = threadIdx.x;
 	// Add a random offset to the age threshold
-	int age_threshold = 1000 + random_age * 1000;
+	int age_threshold = random_age * 100;
 	if (rabbit_buffer[index].age >= age_threshold) {
 		for (int i = 0 ; i < MAX_RABBIT; i++) {
 			if (rabbit_buffer[i].is_alive != true) {
@@ -139,8 +144,8 @@ __global__ void MoveAndSpawnRabbits(Rabbit* rabbit_buffer, int random_age, float
 
 }
 
-// Kernel to move foxes and spawn new ones
-__global__ void MoveAndSpawnFoxes(Fox* fox_buffer, int random_age, float random_u, float random_v) {
+// Kernel to move foxes
+__global__ void MoveFoxes(Fox* fox_buffer, int random_age) {
 	int32_t index = threadIdx.x;
 	if (fox_buffer[index].is_alive) {
 		fox_buffer[index].age = fox_buffer[index].age + random_age;
@@ -150,7 +155,7 @@ __global__ void MoveAndSpawnFoxes(Fox* fox_buffer, int random_age, float random_
 		float temp = fox_buffer[index].direction_u * cos(random_val) - fox_buffer[index].direction_v * sin(random_val);
 		fox_buffer[index].direction_v = fox_buffer[index].direction_u * sin(random_val) + fox_buffer[index].direction_v * cos(random_val);
 		fox_buffer[index].direction_u = temp;
-		
+
 
 		// In case we hit a border we inverse the direction
 		if (fox_buffer[index].u >= 1 || fox_buffer[index].u <= 0) {
@@ -163,8 +168,13 @@ __global__ void MoveAndSpawnFoxes(Fox* fox_buffer, int random_age, float random_
 		fox_buffer[index].u = fox_buffer[index].u + (fox_buffer[index].direction_u / 1000);
 		fox_buffer[index].v = fox_buffer[index].v + (fox_buffer[index].direction_v / 1000);
 	}
+}
+
+// Kernel to spawn foxes
+__global__ void SpawnFoxes(Fox* fox_buffer, int random_age, float random_u, float random_v) {
+	int32_t index = threadIdx.x;
 	// Add a random offset to the age threshold
-	int age_threshold = random_age * 1000;
+	int age_threshold = random_age * 50;
 	if (fox_buffer[index].age >= age_threshold) {
 		for (int i = 0 ; i < MAX_FOX; i++) {
 			if (fox_buffer[i].is_alive != true) {
@@ -210,13 +220,14 @@ __global__ void ChaseRabbitsAndKillFoxes(cudaSurfaceObject_t surface, Fox* fox_b
 		}
 }*/
 
-// Kernel to chase rabbits and kill foxes if they acheive a certain age
-__global__ void ChaseRabbitsAndKillFoxes(cudaSurfaceObject_t surface, Fox* fox_buffer, Rabbit * rabbit_buffer) {
+
+// Kernel to chase rabbits
+__global__ void ChaseRabbits(Fox* fox_buffer, Rabbit* rabbit_buffer) {
 	int32_t index = threadIdx.x;
 
 	// Chase
 	for (int i = 0; i < MAX_RABBIT; i++) {
-		
+
 		if (rabbit_buffer[i].is_alive == true && hypotf(fox_buffer[index].u - rabbit_buffer[i].u, fox_buffer[index].v - rabbit_buffer[i].v) < fox_buffer[index].radius + 0.03) {
 			fox_buffer[index].direction_u = rabbit_buffer[i].u - fox_buffer[index].u;
 			fox_buffer[index].direction_v = rabbit_buffer[i].v - fox_buffer[index].v;
@@ -225,7 +236,11 @@ __global__ void ChaseRabbitsAndKillFoxes(cudaSurfaceObject_t surface, Fox* fox_b
 			fox_buffer[index].direction_v = fox_buffer[index].direction_v / norm;
 		}
 	}
+}
 
+// Kernel to chase rabbits and kill foxes if they acheive a certain age
+__global__ void KillFoxes(Fox* fox_buffer) {
+	int32_t index = threadIdx.x;
 
 	if (fox_buffer[index].is_alive == true && fox_buffer[index].death == 0) {
 		atomicExch(&fox_buffer[index].is_alive, 0);
@@ -351,9 +366,11 @@ void DrawMap(cudaSurfaceObject_t surface, int32_t width, int32_t height, float t
 	DrawRabbits << <blocks, threads >> > (surface, device_rabbits, rabbit_color, width, height);
 	assert(*number_rabbits <= 500);
 	std::uniform_real_distribution<> random_age(0, 10);
-	MoveAndSpawnRabbits <<<1, MAX_RABBIT >>> (device_rabbits, random_age(gen), x(gen), y(gen));
-	MoveAndSpawnFoxes <<<1, MAX_FOX >>> (device_foxes, random_age(gen), x(gen), y(gen));
-	KillRabbits <<<1, MAX_RABBIT >>> (surface, device_rabbits,  device_foxes);
-	ChaseRabbitsAndKillFoxes <<<1, MAX_FOX >>> (surface, device_foxes, device_rabbits);
-
+	MoveRabbits <<<1, MAX_RABBIT >>> (device_rabbits, random_age(gen), x(gen), y(gen));
+	SpawnRabbits << <1, MAX_RABBIT >> > (device_rabbits, random_age(gen), x(gen), y(gen));
+	MoveFoxes << <1, MAX_FOX >> > (device_foxes, random_age(gen));
+	SpawnFoxes << <1, MAX_FOX >> > (device_foxes, random_age(gen), x(gen), y(gen));
+	ChaseRabbits <<<1, MAX_FOX >>> (device_foxes, device_rabbits);
+	KillFoxes << <1, MAX_FOX >> > (device_foxes);
+	KillRabbits << <1, MAX_RABBIT >> > (surface, device_rabbits, device_foxes);
 }
